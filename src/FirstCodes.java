@@ -5,6 +5,7 @@ public class FirstCodes {
         //sout + TAB KEY
         System.out.println("It works!");
     }
+    byte l = 5;
     int a = 1;
     String b = "2";
     int j, k = 3 ;
