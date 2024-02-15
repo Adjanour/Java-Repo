@@ -5,6 +5,8 @@ public class DivisionResult {
 
         // Perform division
         double result = (double) dividend / divisor;
+        String resultString = String.valueOf(result);
+        resultString.substring(0, 4);
 
         // Format the result to two decimal places
         String formattedResult = String.format("%.2f", result);
