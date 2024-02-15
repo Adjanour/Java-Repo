@@ -13,6 +13,7 @@ public class WritingToFiles {
         //creates the file if not exists
         PrintWriter output = new PrintWriter("output.txt");
 
+        //we can not read and write concurrently
         while (input.hasNextLine()){
             output.println(input.nextLine().toUpperCase());
         }
