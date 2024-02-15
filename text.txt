@@ -2,3 +2,4 @@ Name    Gender  Age     Rich
 Nana    M       23.6    TRUE
 Esi     f       42.33   FALsE
 Bernard m       10.2    true
+Zoom    F       20.3    True
