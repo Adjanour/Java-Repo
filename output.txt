@@ -1,0 +1,5 @@
+NAME    GENDER  AGE     RICH
+NANA    M       23.6    TRUE
+ESI     F       42.33   FALSE
+BERNARD M       10.2    TRUE
+ZOOM    F       20.3    TRUE
