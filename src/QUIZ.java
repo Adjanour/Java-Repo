@@ -17,7 +17,7 @@ public class QUIZ {
         }
 
         Arrays.sort(arr);
-
+        
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
@@ -25,13 +25,6 @@ public class QUIZ {
             output.println(arr[i]);
         }
 
-//        for(double number : arr){
-//            System.out.println(number);
-//        }
-//        for(double number : arr){
-//            output.println(number);
-//        }
-        System.out.println(Arrays.stream(arr).sum());
         input.close();
         output.close();
     }
