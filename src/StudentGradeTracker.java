@@ -42,7 +42,7 @@ public class StudentGradeTracker {
        // Main task
        int noOfStudents = 0;
        int noOfSubjects = 0;
-       int noOfTotals = 0;
+    //    int noOfTotals = 0;
 
         Scanner input = new Scanner(System.in);
 
@@ -120,7 +120,7 @@ public class StudentGradeTracker {
         }
         System.out.println("Total for all students: " + Arrays.stream(stdTotals).sum());
         System.out.println("Average for all students: " + Arrays.stream(stdAverages).average().getAsDouble());
-        
+
         input.close();
         
     }
