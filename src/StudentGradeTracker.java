@@ -42,7 +42,6 @@ public class StudentGradeTracker {
        // Main task
        int noOfStudents = 0;
        int noOfSubjects = 0;
-    //    int noOfTotals = 0;
 
         Scanner input = new Scanner(System.in);
 
