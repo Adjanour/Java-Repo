@@ -1,6 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -24,6 +25,11 @@ public class QUIZ {
         for (int i = 0; i < arr.length; i++) {
             output.println(arr[i]);
         }
+        ArrayList<String> a = new ArrayList<>();
+        a.clear();
+        a.add(0,"Hello");
+
+        System.out.println();
 
         input.close();
         output.close();
