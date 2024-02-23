@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Quiz2 {
@@ -15,6 +16,7 @@ public class Quiz2 {
         while(input.hasNext()){
             newArray.add(input.nextInt());
         }
+        Arrays.sort(newArray.toArray());
 
         for (Integer number : newArray) {
             output.println(number);
