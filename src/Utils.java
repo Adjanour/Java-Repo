@@ -6,7 +6,7 @@ public class Utils {
      * @param decimalPlaces the decimal place to round to
      * @return the rounded number
      */
-     public static double toDecimalPlace(double number, double decimalPlaces) {
+     public static double  toDecimalPlace(double number, double decimalPlaces) {
         return (double) Math.round(number * Math.pow(10, decimalPlaces)) / Math.pow(10, decimalPlaces);
     }
 
