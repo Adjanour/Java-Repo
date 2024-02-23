@@ -16,7 +16,7 @@ public class Quiz2 {
         while(input.hasNext()){
             newArray.add(input.nextInt());
         }
-        Arrays.sort(newArray.toArray());
+        // Arrays.sort(newArray.toArray());
 
         for (Integer number : newArray) {
             output.println(number);
