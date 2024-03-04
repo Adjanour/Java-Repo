@@ -41,7 +41,8 @@ public class hashsetPracticals {
 
         //Returns null set if there is no common elements
         //undo works with the enter key
-        0
+
+
         //Set difference
 //        System.out.println("Before difference");
 //        System.out.println(stdNames);

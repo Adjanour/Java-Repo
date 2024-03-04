@@ -1,15 +1,46 @@
+
+import Classes.Student;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
 public class FirstCodes {
     //CREATE MAIN METHOD FOR OUR PROGRAM
     //psvm + TAB KEY
-    public static void main(String[] args) {
-        //sout + TAB KEY
-        System.out.println("It works!");
+    // public static void main(String[] args) {
+    //     //sout + TAB KEY
+    //     System.out.println("It works!");
+    // }
+    // byte l = 5;
+    // int a = 1;
+    // String b = "2";
+    // int j, k = 3 ;
+    // String studentName="Him",personnelName="",staffName="";
+     public static void main(String[] args) {
+        rectangular r1 = new rectangular(20.0,10.0);
+        System.out.println(r1.Area());
+
+        Student s1 = new Student("Kirk Katamanso", 2005, "CE", "Agomeda",
+         "Computer Science and Engineering", 2, "Castle Gate", 89.54, "male", "FOE.41.008.088.22");
+
+        Student s2 = new Student("Deborah Katamanso", 2005, "CE", "Agomeda","Computer Science and Engineering", 2, "Castle Gate",80.5,"female","FOE.41.008.089.22");
+        Student s3 = new Student("Jessica Katamanso",2007,"CE","Agomeda","Computer Science and Engineering",2,"Castle",95.6,"female",
+        "FOE.41.008.056.22");
+
+        List<Student> studentList = new ArrayList<>();
+            
+        studentList.add(s1);
+        studentList.add(s2);
+        studentList.add(s3);
+
+         System.out.println(s1.calculateAge());
+         System.out.println(s1.calculateRemainingYears(4));
+         System.out.println(s1.generateStudentID());
+         s1.displayInfo();
+         
+         System.out.println(Student.calculateGenderRatio(studentList));
     }
-    byte l = 5;
-    int a = 1;
-    String b = "2";
-    int j, k = 3 ;
-    String studentName="Him",personnelName="",staffName="";
 };
 //To tell the compiler to allocate an appropriate memory allocation (Why initialize)
 //Default 0 assigned to initialize int or double
