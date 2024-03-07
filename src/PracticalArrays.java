@@ -13,6 +13,7 @@ public class PracticalArrays {
 
         double[] scores = { 3.0, 4.5, 6.2, 5.6, 5.3, 2, 4.0, 7.98, 0.0 };
 
+
         System.out.println(Arrays.toString(scores));
         System.out.println(Arrays.toString(stdNames));
         System.out.println(Arrays.toString(marks));

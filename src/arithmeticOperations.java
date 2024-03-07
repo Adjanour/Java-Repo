@@ -1,3 +1,7 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.Reader;
+
 public class arithmeticOperations {
     public static void main(String[] args) {
         int num1 = 20;
@@ -36,6 +40,8 @@ public class arithmeticOperations {
         //Read on BufferedReader
         //6 numeric datatype
         //5 operators
+
+
 
     }
 }

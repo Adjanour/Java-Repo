@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -59,6 +60,13 @@ public class hashsetPracticals {
 ////        stdAges.add(10);
 ////        stdAges.add(23);
 
+        HashSet<String> nameOfStudents = new HashSet<String>();
+
+        nameOfStudents.add("Kwame");
+        nameOfStudents.add("Kwame");
+        System.out.println(nameOfStudents);
+
+        System.out.println(nameOfStudents);
 
 //        System.out.println(stdAges);
     }

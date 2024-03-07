@@ -8,6 +8,10 @@ public class DivisionResult {
         String resultString = String.valueOf(result);
         resultString.substring(0, 4);
 
+
+        System.out.println( Math.ceil(5));
+        System.out.println(Math.nextDown(5.0));
+
         // Format the result to two decimal places
         String formattedResult = String.format("%.2f", result);
 

@@ -24,7 +24,7 @@ public class MathOperations {
 
         Character.isDigit('A');
         String myName = "  John  ";
-        myName.concat(" Smith");
+        myName = myName.concat(" Smith");
         myName.trim();
         System.out.println(myName);
         double acos = Math.acos(Math.cos(Math.toRadians(45)));

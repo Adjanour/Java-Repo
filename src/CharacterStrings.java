@@ -34,9 +34,19 @@ public class CharacterStrings {
 
 
         String name = "John";
+        String a = name;
+
+        System.out.println(a);
+        System.out.println(name.compareTo(a));
+        System.out.println(name == a);
         System.out.println(name.length());
         System.out.println();
 
+
         name.compareTo("John");
+        name.equals("John");
+        System.out.println(name.compareTo("John"));
+        System.out.println(name.equals("Joh"));
+
     }
 }

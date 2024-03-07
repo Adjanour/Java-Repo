@@ -5,10 +5,10 @@ import java.util.Map;
 public class hashmapPracticals {
     public static void main(String[] args) {
 
-        Map<String, String> stdNames = new HashMap<String, String>();
+        Map<String, String> stdNames = new HashMap<>();
 
         stdNames.put("John", "John");
-        stdNames.put("Kirk", "Kirk444");
+        stdNames.put("Kirk", "Kirk444");;
         stdNames.put("James", "James");
         stdNames.put("Bernard", "Bernard");
 
@@ -17,7 +17,7 @@ public class hashmapPracticals {
        System.out.println(stdNames.get("Kirk"));
 
        String name = "This is my name";
-      String[] a = name.split(" ");
+      String[] a = name.split("/(.*? )/");
 
       System.out.println(Arrays.toString(a));
 

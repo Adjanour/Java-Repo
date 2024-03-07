@@ -6,6 +6,7 @@ import java.util.List;
 
 
 public class FirstCodes {
+    static final int k = 5;
     //CREATE MAIN METHOD FOR OUR PROGRAM
     //psvm + TAB KEY
     // public static void main(String[] args) {

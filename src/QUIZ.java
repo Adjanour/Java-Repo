@@ -27,6 +27,7 @@ public class QUIZ {
         }
         ArrayList<String> a = new ArrayList<>();
         a.clear();
+        
         a.add(0,"Hello");
 
         System.out.println();

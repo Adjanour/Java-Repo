@@ -20,6 +20,13 @@ public class methodsPracticals {
 
         System.out.println(sumWithinRange(0,100));
 
+        int i = 0;
+
+        while(i<10){
+
+        }
+
+
     }
 
     private static void multiplesOfThreeAndFour(ArrayList<Double> array) {
